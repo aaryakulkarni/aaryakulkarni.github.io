@@ -6,9 +6,10 @@ layout: post
 
 {% for item in site.data limit: 1 %}
  
+ <h1>Item : {{ item }}</h1>
  {% for thing in item  %}
 
-    <li>{{ thing }}</li>
+    <li>{{ thing.when_is_it_happening }}</li>
 
 {% endfor %}
 
