@@ -4,7 +4,7 @@ layout: post
 <div>
 {{ content }}
 
-{% for item in site.data  %}
+{% for item in site.data limit: 1 %}
  
  {% for thing in item  %}
 
