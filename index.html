@@ -3,16 +3,19 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+  
+           {% for post in site.posts %}
+               <article class="post">                                                            <!--square part post like-->
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                     <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>    <!--title clickable link -->
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+                     <div class="entry">                                                 
+                        {{ post.excerpt }}                                                      <!--post content -->       
+                     </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+                    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>  <!--Read more link -->
+             </article>
+  
+          {% endfor %}
+  
 </div>
