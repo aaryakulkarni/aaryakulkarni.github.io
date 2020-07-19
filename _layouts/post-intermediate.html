@@ -1,7 +1,9 @@
 ---
 layout:post
 ---
+<div>
 {{ content }}
+
 {% for item in site.data.content %}
  {% for category in item %}
 
@@ -12,3 +14,4 @@ layout:post
   {% endfor %}
 
 {% endfor %}
+</div>
