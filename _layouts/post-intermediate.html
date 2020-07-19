@@ -5,13 +5,12 @@ layout:post
 {{ content }}
 
 {% for item in site.data.content %}
- {% for category in item %}
-
+ 
  
 
-    <li>{{ category }}</li>
+    <li>{{ item }}</li>
 
-  {% endfor %}
+
 
 {% endfor %}
 </div>
