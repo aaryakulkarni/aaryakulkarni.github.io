@@ -4,12 +4,12 @@ layout: post
 <div>
 {{ content }}
 
-{% for item in site.data limit: 1 %}
+{% for item in site.data %}
  
  <h1>Item : {{ item }}</h1>
  {% for thing in item  %}
 
-    <li>{{ thing.when_is_it_happening }}</li>
+    <li>{{ thing.What_is_happening }}</li>
 
 {% endfor %}
 
