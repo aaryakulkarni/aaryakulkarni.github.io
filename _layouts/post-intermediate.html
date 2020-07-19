@@ -4,11 +4,10 @@ layout:post
 
 {% for item in site.data.content %}
  {% for category in item %}
-{% assign category = people_hash[1] %}
 
  
 
-    <li>{{ person.name }}, {{ person.role }}</li>
+    <li>{{ category}}</li>
 
   {% endfor %}
 
