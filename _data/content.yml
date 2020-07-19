@@ -1,0 +1,7 @@
+What_is_happening:
+  - "Jenkins will be down"
+  - "Github will be down"
+How_will_i_be_impacted:
+  - "Jenkins Server unavailable"
+  - "Github Server unavailable"  
+  
