@@ -1,4 +1,4 @@
-totalPosts:[
+totalPosts: [
   {
     when: ['Today at 3pm', 'Before EOD'],
     how: 'You will not be able to access TeamCity'
