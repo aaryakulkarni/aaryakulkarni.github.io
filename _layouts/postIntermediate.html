@@ -3,7 +3,9 @@ layout: post
 ---
 <div>
 {{ content }}
-
+{% if post.title %}
+ {% assign current_title = post.title %}
+{% endif %}
 {% for item in site.data.history.totalPosts %}
  
  <p>
