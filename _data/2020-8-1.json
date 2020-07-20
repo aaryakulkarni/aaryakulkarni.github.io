@@ -1,0 +1,18 @@
+totalPosts:[
+  {
+    when: ['Today at 3pm', 'Before EOD'],
+    how: 'You will not be able to access TeamCity'
+  },
+  {
+    when: ['Today at 10pm', 'Before 12 pm'],
+    how: 'You will not be able to access Jenkins Build'
+  }
+  
+]
+
+# What_is_happening:
+#   - "1 August"
+#   - "1 August"
+# How_will_i_be_impacted:
+#   - "1 August"
+#   - "1 August"  
