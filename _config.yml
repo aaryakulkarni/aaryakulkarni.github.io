@@ -78,8 +78,8 @@ gems:
 defaults:
 -
    scope:
-      path: ""
-      type: "site.posts.first"
+      path: "site.posts.first"
+
    values:
       layout: "postIntermediate"
       comments: false
