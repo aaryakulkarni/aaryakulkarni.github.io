@@ -4,7 +4,7 @@ layout: post
 <div>
 {{ content }}
 {% if post.title %}
- {% assign site.current_title = post.title %}
+ {% assign current_title = post.title %}
 {% endif %}
 {% for item in site.data.history.totalPosts %}
  {% if item.title == site.current_title %}
