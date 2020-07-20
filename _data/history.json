@@ -1,0 +1,25 @@
+totalPosts: [
+  {
+    when: ['when1_aug1', 'when2_aug1'],
+    how: ['how1_aug1', 'how2_aug1'],
+    title: '2020-8-1'
+  },
+   {
+    when: ['when1_jul20', 'when2_jul20'],
+    how: ['how1_jul20', 'how2_jul20'],
+    title: '2020-7-20'
+  },
+   {
+    when: ['when1_jul2', 'when2_jul2'],
+    how: ['how1_jul2', 'how2_jul2'],
+    title: '2020-7-2'
+  }
+ 
+]
+
+# What_is_happening:
+#   - "1 August"
+#   - "1 August"
+# How_will_i_be_impacted:
+#   - "1 August"
+#   - "1 August"  
