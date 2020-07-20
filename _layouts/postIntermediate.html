@@ -8,11 +8,15 @@ layout: post
  
  <p>
   When :
-  <br> <li> {{ item.when }} </li>
+  {% for thing in item.when %}
+  <br> <li> {{ thing }} </li>
+  {% endfor %}
   </p>
   <p>
   How :
-  <br> <li> {{ item.how }} </li>
+  {% for thing in item.how %}
+  <br> <li> {{ thing }} </li>
+  {% endfor %}
   </p>
 
 
