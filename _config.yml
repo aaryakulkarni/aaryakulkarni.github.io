@@ -85,15 +85,7 @@ defaults:
       comments: false
       social-share: false
       readtime: false
--
-   scope:
-      path: ""
-      type: "posts"
-   values:
-      layout: "post"
-      comments: false
-      social-share: false
-      readtime: false     
+ 
       
 
 # Exclude these files from your production _site
