@@ -4,11 +4,16 @@ layout: post
 <div>
 {{ content }}
 
-{% for item in site.data.first.totalPosts %}
+{% for item in site.data.history.totalPosts %}
  
  <p>
-  {{ item.when }} : {{ item.how }}
- </p>
+  When :
+  <br> <li> {{ item.when }} </li>
+  </p>
+  <p>
+  How :
+  <br> <li> {{ item.how }} </li>
+  </p>
 
 
 {% endfor %}
